@@ -1,0 +1,217 @@
+.logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+}
+.left-content{
+    background-color: #134F5C;
+    width: 100%;
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-content .user-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+}
+.left-content .user-details .user-img{
+    border: 2px solid white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+.left-content .user-details i{
+    color: white;
+    font-size: 34px;
+}
+.left-content .user-details h1{
+    font-size: 20px;
+    color: white;
+}
+.left-content .user-details h4{
+    font-size: 16px;
+    color: white;
+}
+.navigations-div>div{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.navigations-div h1{
+    font-size: 20px;
+}
+.navigations-div i{
+    font-size: 16px;
+    margin-right: 10px;
+    width: 20px;
+}
+.support-div h1{
+    font-size: 20px;
+    color: white;
+}
+.support-div{
+    width: 65%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.header{
+    background-color: #dddddd;
+    height: 80px;
+}
+.header h1{
+    font-size: 30px;
+    margin-left: 10%;
+}
+.header .bars{
+    font-size: 20px;
+    color: #999999;
+}
+.display{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header input{
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 60%;
+    padding: 2px 26px;
+}
+.header .search{
+    left: 4%;
+    position: absolute;
+}
+.custom-card{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid;
+    padding: 10px 20px;
+    margin: 0 20px;
+}
+.custom-card .card-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.custom-card .card-left h1{
+    font-size: 16px;
+}
+.custom-card .card-left p{
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.custom-card .card-right h1{
+    font-size: 100px;
+    margin-bottom: 0;
+}
+.dash-padd{
+    padding: 40px 0;
+}
+.table-head{
+    font-size: 22px;
+}
+.dashboard-table{
+    width: 86%;
+    border: 2px solid;
+    border-collapse: collapse;
+}
+.dashboard-table thead{
+    background-color: #cccccc;
+}
+.dashboard-table td{
+    border-right: 2px solid;
+    padding: 5px;
+    font-size: 14px;
+}
+.dashboard-table tbody tr:nth-child(odd){
+    background-color: #eeeeee;
+}
+.buttons-row{
+    justify-content: space-between;
+    padding: 15px 15px 0 15px;
+    width: 89%;
+}
+#dashboardOne{
+    padding: 0 40px;
+    width: 100%;
+}
+#dashboardOne .button-div{
+    display: flex;
+    justify-content: flex-end;
+}
+#dashboardOne .card-left{
+    border: 2px solid;
+    border-right:none!important;
+    padding: 20px;
+}
+#dashboardOne .card-left p{
+    margin-bottom: 0;
+    color: #6F7072;
+}
+#dashboardOne .card-right{
+    border: 2px solid;
+    border-left:none!important;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#dashboardOne .card-right button{
+    margin-right: 4%;
+}
+#dashboardOne .row{
+    margin-top: 20px;
+}
+#dashboardOne .modal-body{
+    padding: 15px 40px;
+}
+#dashboardOne .modal-body select{
+    width: 60%;
+    height: 30px;
+    border: 2px solid;
+}
+#dashboardOne .modal-body p{
+    margin-bottom: 0;
+    margin-top: 20px;
+}
+#dashboardOne .modal-body input{
+    width: 100%;
+    height: 30px;
+    padding-left: 5px;
+    border: 2px solid;
+}
+#dashboardOne .modal-body .modal-body-bottom{
+    display: flex;
+    justify-content: space-between;
+}
+#dashboardOne .modal-body .modal-body-bottom select{
+    width: 100%;
+}
+#dashboardOne .modal-dialog {
+    margin: 30px auto;
+    margin-top: 10%;
+}
+#dashboardOne .modal-content{
+    border: 2px solid rgba(0,0,0,1);
+    border-radius: unset;
+}
+#dashboardOne .modal-header {
+    border-bottom: 2px solid;
+}
+#dashboardOne .close{
+    opacity: 1!important;
+    margin-top: -10px!important;
+}
+#dashboardOne .modal-footer{
+    border: none;
+}
