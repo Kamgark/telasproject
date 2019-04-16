@@ -1,8 +1,13 @@
 import React,{Component} from 'react';
+import Leftside from '../leftbar';
+import Header from '../header';
 class Dashboard extends Component{
     render(){
         return(
-            <div className="container">
+            <div>
+                <Leftside/>
+                <Header/>
+                <div className="">
                 <div className="row dash-padd">
                     <div className="col-sm-3 custom-card">
                         <div className="card-left">
@@ -72,11 +77,13 @@ class Dashboard extends Component{
                             </tbody>
                         </table>
                     </div>
+                    <div className="buttons-row">
+                        <button type="button">Novo agendamento</button>
+                        <button type="button">ver mais</button>
+                    </div>
                 </div>
-                <div className="row buttons-row">
-                <button type="button">Novo agendamento</button>
-                <button type="button">ver mais</button>
-                </div>
+               
+            </div>
             </div>
         )
     }

@@ -1,8 +1,13 @@
 import React,{Component} from 'react';
+import Leftside from '../leftbar';
+import Header from '../header';
 class DashboardOne extends Component{
     render(){
         return(
-            <div id="dashboardOne" className="container">
+            <div>
+                 <Leftside/>
+                <Header/>
+                <div id="dashboardOne" className="container">
                 <div className="row">
                     <div className="col-sm-10">
                         <div className="row button-div">
@@ -65,6 +70,7 @@ class DashboardOne extends Component{
                 </div>
                 
                 </div>
+            </div>
             </div>
             </div>
         )

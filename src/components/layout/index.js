@@ -3,7 +3,7 @@ const Layout = (props) => {
     return (
         <div className="container-fluid">
             <div className="row">
-            {props.children}
+               {props.children}
             </div>
         </div>
     )
