@@ -14,6 +14,21 @@ import Login from './components/login';
 import Identification from './components/identification';
 
 class App extends Component {
+  state = {
+    user: {}
+  }
+  componentDidMount(){
+    this.authListener();
+  }
+  authListener(){
+    fire.auth().onAuthStateChanged((user ) =>{
+      if(user){
+        this.setState({user });
+      }else{
+        this.setState({user: null})
+      }
+    });
+  }
   render() {
     return (
       <BrowserRouter>
@@ -27,7 +42,7 @@ class App extends Component {
               <Route path="/pro" component={Profile}/>
               <Route path="/twodiv" component={Twodiv}/>
               <Route path="/login" component={Login}/>
-              <Route path="/identification" component={Identification}/>
+              <Route path="n" component={Identification}/>
         
         </Switch>
       </BrowserRouter>
